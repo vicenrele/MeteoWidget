@@ -1,0 +1,36 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>MeteoWidget</title>
+        <meta name="description" content="MeteoWidget">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>        
+
+    </head>
+
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">Estás usando un navegador <strong>desactualizado</strong>. Por favor <a href="http://browsehappy.com/">actualízalo</a> para mejor la experiencia de usuario.</p>
+        <![endif]-->
+
+        <div id="weatherBox">
+            <div class="contentBox"><h2 id="city"></h2></div>
+            <div class="contentBox"><b>Fecha y hora: </b><p class="descript" id="date"></p></div>            
+            <div class="contentBox"><b>Longitud: </b><p class="descript" id="lat"></p></div>
+            <div class="contentBox"><b>Latitud: </b><p class="descript" id="lon"></p></div>             
+
+            <div class="contentBox"><img id="image" /></div>
+            <div class="contentBox"><b>Temperatura: </b><p class="descript" id="temperature"></p></div>        
+            <div class="contentBox"><b>Humedad:  </b><p class="descript" id="humidity"></p></div> 
+            <div class="contentBox"><b>Viento: </b><p class="descript" id="wind"></p></div>                      
+        </div>
+
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>        
+        <script src="js/main.js"></script>        
+    </body>
+</html>
